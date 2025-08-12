@@ -26,7 +26,7 @@ const Section1 = () => {
           <div className="flex items-center justify-center lg:absolute lg:left-[56%]">
             {" "}
             <img src={assets.vector} alt="" />
-            <p className="text-[16px] font-medium text-[#333333 font-fuzzy">
+            <p className="text-[16px] font-medium text-[#333333] font-montserrat">
               no credit required !
             </p>
           </div>
