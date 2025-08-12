@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Section1 = () => {
   return (
-    <div className="px-4 pt-[150px] sm:px-[30px] md:px-[80px] text-center bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#ecc9db] via-white to-slate-100">
+    <div className="px-4 pt-[80px] sm:px-[30px] md:px-[80px] text-center bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#ecc9db] via-white to-slate-100">
       <div className="flex flex-col gap-[12px]">
         <div className="text-[40px] md:text-[48px] font-bold text-[#1A2B5F] leading-[130%]">
           <p className="z-20 relative font-montserrat">
@@ -23,10 +23,10 @@ const Section1 = () => {
               Start Free Trial
             </button>
           </div>
-          <div className="flex items-center justify-center lg:absolute lg:left-[56%]">
+          <div className="hidden md:flex items-center justify-center lg:absolute lg:left-[56%]">
             {" "}
             <img src={assets.vector} alt="" />
-            <p className="text-[16px] font-medium text-[#333333] font-montserrat">
+            <p className="text-[16px] font-medium text-[#333333 font-fuzzy">
               no credit required !
             </p>
           </div>
