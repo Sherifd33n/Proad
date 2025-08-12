@@ -60,7 +60,7 @@ const Section4 = () => {
                   </div>
                 </div>
               </div>{" "}
-              <button className="bg-[#2EC4B6] w-[290px] rounded-full text-white text-[16px] font-normal py-[11px]">
+              <button className="bg-[#2EC4B6] w-[290px] rounded-full text-white text-[16px] font-normal py-[11px] hover:opacity-60 duration-200">
                 Get Started
               </button>
             </div>

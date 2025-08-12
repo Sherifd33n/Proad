@@ -21,7 +21,7 @@ function App() {
     !location.pathname.startsWith("/my-blog/");
 
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
       <Navbar />
       <ScrollToTop />
       <Routes>

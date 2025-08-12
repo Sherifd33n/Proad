@@ -17,18 +17,23 @@ const Section1 = () => {
           The ultimate project management tool for teams to collaborate and
           deliver on time.
         </p>
-        <div className="flex flex-col md:flex-row mt-[15px] mx-auto items-center gap-[5px] md:mr-[100px] lg:mr-[250px]">
-          <button className="text-[16px] text-white bg-[#2EC4B6] font-normal py-[12px] md:py-[15px] px-[23px] rounded-full">
-            Start Free Trial
-          </button>
-          <img src={assets.vector} alt="" />
-          <p className="text-[16px] font-medium text-[#333333 font-fuzzy">
-            no credit required !
-          </p>
+        <div className="flex justify-center flex-col relative gap-2">
+          <div className="flex flex-col md:flex-row mt-[15px] mx-auto items-center gap-[5px]">
+            <button className="text-[16px] text-white bg-[#2EC4B6] font-normal py-[12px] md:py-[15px] px-[23px] rounded-full hover:opacity-60 duration-200">
+              Start Free Trial
+            </button>
+          </div>
+          <div className="flex items-center justify-center lg:absolute lg:left-[56%]">
+            {" "}
+            <img src={assets.vector} alt="" />
+            <p className="text-[16px] font-medium text-[#333333 font-fuzzy">
+              no credit required !
+            </p>
+          </div>
         </div>
 
         <div className="mt-[40px]">
-          <img src={assets.section1} alt="" />
+          <img src={assets.section1} alt="" className="w-full" />
         </div>
       </div>
     </div>

@@ -22,19 +22,19 @@ const Footer = () => {
           <p className="text-[16px] font-semibold text-[#333333]">Menu</p>
           <ul className="text-[16px] font-normal text-[#929292] flex flex-col gap-[15px] lg:gap-[20px] mt-[20px]">
             <NavLink to="/">
-              <li>Home</li>
+              <li className="hover:text-[#1A2B5F]">Home</li>
             </NavLink>
             <NavLink to="/">
-              <li>Features</li>
+              <li className="hover:text-[#1A2B5F]">Features</li>
             </NavLink>
             <NavLink to="/">
-              <li>Pricing</li>
+              <li className="hover:text-[#1A2B5F]">Pricing</li>
             </NavLink>
             <NavLink to="/">
-              <li>Blog</li>
+              <li className="hover:text-[#1A2B5F]">Blog</li>
             </NavLink>
             <NavLink to="/">
-              <li>Contact</li>
+              <li className="hover:text-[#1A2B5F]">Contact</li>
             </NavLink>
           </ul>
         </div>
@@ -42,10 +42,10 @@ const Footer = () => {
           <p className="text-[16px] font-semibold text-[#333333]">Legal</p>
           <ul className="text-[16px] font-normal text-[#929292] flex flex-col gap-[15px] lg:gap-[20px] mt-[20px]">
             <NavLink to="/">
-              <li>Privacy Policy</li>
+              <li className="hover:text-[#1A2B5F]">Privacy Policy</li>
             </NavLink>
             <NavLink to="/">
-              <li>Terms of Service</li>
+              <li className="hover:text-[#1A2B5F]">Terms of Service</li>
             </NavLink>
           </ul>
         </div>
@@ -56,26 +56,26 @@ const Footer = () => {
           <ul className="flex gap-[6px] mt-[20px] items-center">
             <NavLink to="">
               <li>
-                <BsTwitterX className="text-[20px] text-[#1A2B5F]" />
+                <BsTwitterX className="text-[20px] text-[#1A2B5F] hover:scale-105 duration-200" />
               </li>{" "}
             </NavLink>
 
             <NavLink to="">
               {" "}
               <li>
-                <BiLogoInstagram className="text-[24px] text-[#1A2B5F]" />
+                <BiLogoInstagram className="text-[24px] text-[#1A2B5F] hover:scale-105 duration-200" />
               </li>
             </NavLink>
 
             <NavLink to="">
               <li>
-                <BiLogoFacebookCircle className="text-[24px] text-[#1A2B5F]" />
+                <BiLogoFacebookCircle className="text-[24px] text-[#1A2B5F] hover:scale-105 duration-200" />
               </li>
             </NavLink>
 
             <NavLink to="">
               <li>
-                <BiLogoLinkedinSquare className="text-[24px] text-[#1A2B5F]" />
+                <BiLogoLinkedinSquare className="text-[24px] text-[#1A2B5F] hover:scale-105 duration-200" />
               </li>
             </NavLink>
           </ul>

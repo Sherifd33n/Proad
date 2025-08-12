@@ -14,7 +14,14 @@ const Section3 = () => {
       </div>
 
       <div className="text-left flex justify-center items-center mt-[30px] md:mt-[60px]">
-        <div className="flex flex-col">
+        <div className="md:hidden">
+          <img
+            src={assets.frame58}
+            alt=""
+            className="mx-[20px]"
+          />
+        </div>
+        <div className="flex flex-col gap-[70px] md:gap-[25px] ">
           <div className="leading-[100%] gap-[4px] flex flex-col">
             <p className="text-[14px] font-semibold text-[#FF70A6]">STEP 1</p>
             <p className="text-[18px] font-bold text-[#1A2B5F]">
@@ -46,7 +53,11 @@ const Section3 = () => {
         </div>
 
         <div>
-          <img src={assets.frame58} alt="" className="mx-[20px] hidden md:block" />
+          <img
+            src={assets.frame58}
+            alt=""
+            className="mx-[20px] hidden md:block"
+          />
         </div>
 
         <div className="mt-[75px] hidden md:block">

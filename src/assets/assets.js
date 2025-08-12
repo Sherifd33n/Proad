@@ -1,10 +1,10 @@
 import logo from "./Logo.png";
 import vector from "./Vector.png";
 import section1 from "./Section 1.png";
-import frame53 from "./Frame 53.png";
-import frame54 from "./Frame 54.png";
-import frame55 from "./Frame 55.png";
-import frame56 from "./Frame 56.png";
+import frame1 from "./frame1.png"
+import frame2 from "./frame2.png";
+import frame3 from "./frame3.png"
+import frame4 from "./frame4.png";
 import frame58 from "./Frame 58.png";
 import frame91 from "./Frame 91.png";
 import user1 from "./user1.png";
@@ -28,10 +28,10 @@ export const assets = {
   logo,
   vector,
   section1,
-  frame53,
-  frame54,
-  frame55,
-  frame56,
+  frame1,
+  frame2,
+  frame3,
+  frame4,
   frame58,
   frame91,
   frame,

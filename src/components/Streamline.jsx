@@ -9,7 +9,7 @@ const Streamline = () => {
           Ready to streamline your projects? Start your free trial today!
         </p>
         <div>
-          <button className="text-[16px] font-normal text-white bg-[#2EC4B6] py-[10px] px-[20px] rounded-[30px]">
+          <button className="text-[16px] font-normal text-white bg-[#2EC4B6] py-[10px] px-[20px] rounded-[30px] hover:opacity-60 duration-200">
             Start Free Trial
           </button>
         </div>

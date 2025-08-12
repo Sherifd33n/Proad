@@ -51,14 +51,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-4 pt-[15px] md:pt-[20px] sm:px-[30px] md:px-[80px] bg-slate-50 fixed w-full z-50 py-2 flex justify-between">
+    <div className="px-4 pt-[15px] md:pt-[20px] sm:px-[30px] md:px-[80px] bg-slate-50  w-full z-50 py-2 flex justify-between items-center">
       <div className="flex items-center justify-between w-full">
-        <div className="flex items-center gap-[20px]">
+        <div className="flex items-center gap-[50px]">
           <div className="flex gap-[5px] items-center text-[16px] font-bold text-[#1A2B5F] font-montserrat">
             <img src={assets.logo} alt="" /> PROAD
           </div>
 
-          <ul className="hidden items-center gap-[20px] md:flex">
+          <ul className="hidden items-center gap-[20px] lg:flex">
             <NavLink to="/">
               <li className="text-[16px] font-semibold text-[#333333]">Home</li>
               <hr className="h-[8px] w-full bg-[#A3E635] mx-auto mt-[-10px] hidden" />
@@ -97,7 +97,7 @@ const Navbar = () => {
           </ul>
 
           {isMenuOpen && (
-            <ul className="md:hidden bg-gray-300 h-screen w-full text-center mx-auto z-50 top-[55px] left-0 right-0 fixed py-[30px] flex flex-col gap-[20px] uppercase ">
+            <ul className="lg:hidden bg-gray-300 h-screen w-full text-center mx-auto z-50 top-[55px] left-0 right-0 fixed py-[30px] flex flex-col gap-[20px] uppercase ">
               {Links.map((link) => (
                 <NavLink
                   to={link.link}
@@ -109,7 +109,7 @@ const Navbar = () => {
             </ul>
           )}
         </div>
-        <div className="hidden md:flex items-center gap-[30px]">
+        <div className="hidden lg:flex items-center gap-[30px]">
           <NavLink
             to="/login"
             className="text-[16px] font-medium text-[#333333]">
@@ -121,7 +121,7 @@ const Navbar = () => {
             Sign up
           </NavLink>
         </div>{" "}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           {isMenuOpen ? (
             <IoMdClose
               className="h-[32px] w-[32px] cursor-pointer hover:scale-105 duration-200"
